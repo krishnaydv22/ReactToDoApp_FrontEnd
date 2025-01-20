@@ -1,0 +1,49 @@
+/* Container to center the whole layout */
+.container {
+    display: flex;
+    flex-direction: column;
+     /* justify-content: center;   */
+    /* align-items: center;  Center horizontally */
+    /* height: 100vh;  /* Take up full viewport height */
+    /* text-align: center;  Ensure text is centered inside the span */  
+  }
+  
+  /* Styling for the count display */
+  .count {
+    font-size: 60px;
+    margin-bottom: 20px;  /* Add some space between the count and buttons */
+    text-align: center;
+  }
+  
+  /* Styling for the calculator container */
+  .calculator {
+    display: flex;
+    flex-direction: row;  /* Arrange buttons in a vertical direction */
+    align-items: center;  /* Align buttons horizontally in the center */
+    /* text-align: center; */
+    justify-content: center; 
+  }
+  
+  /* Styling for each button */
+  .countButton {
+    font-size: 22px;
+    background-color: blue;
+    color: white;
+    padding: 18px 30px;  /* Add padding to make buttons bigger */
+    margin: 10px;  /* Space between buttons */
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .countButton:hover {
+    background-color: darkblue;
+  }
+  
+  /* Active (pressed) effect for buttons */
+  .countButton:active {
+    transform: scale(0.98);
+  }
+  
